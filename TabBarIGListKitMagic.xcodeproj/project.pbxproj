@@ -9,19 +9,45 @@
 /* Begin PBXBuildFile section */
 		4C4A93111EFB37C100CA92FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A93101EFB37C100CA92FE /* AppDelegate.swift */; };
 		4C4A93131EFB37C100CA92FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A93121EFB37C100CA92FE /* ViewController.swift */; };
-		4C4A93161EFB37C100CA92FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C4A93141EFB37C100CA92FE /* Main.storyboard */; };
 		4C4A93181EFB37C100CA92FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C4A93171EFB37C100CA92FE /* Assets.xcassets */; };
 		4C4A931B1EFB37C100CA92FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C4A93191EFB37C100CA92FE /* LaunchScreen.storyboard */; };
+		4C4A93291EFB479700CA92FE /* ListConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A93221EFB479700CA92FE /* ListConfigurator.swift */; };
+		4C4A932A1EFB479700CA92FE /* ListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A93231EFB479700CA92FE /* ListInteractor.swift */; };
+		4C4A932B1EFB479700CA92FE /* ListModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A93241EFB479700CA92FE /* ListModels.swift */; };
+		4C4A932C1EFB479700CA92FE /* ListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A93251EFB479700CA92FE /* ListPresenter.swift */; };
+		4C4A932D1EFB479700CA92FE /* ListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A93261EFB479700CA92FE /* ListRouter.swift */; };
+		4C4A932E1EFB479700CA92FE /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A93271EFB479700CA92FE /* ListViewController.swift */; };
+		4C4A932F1EFB479700CA92FE /* ListWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A93281EFB479700CA92FE /* ListWorker.swift */; };
+		4C4A93321EFB484800CA92FE /* ListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C4A93311EFB484800CA92FE /* ListCell.xib */; };
+		4C4A93341EFB489A00CA92FE /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A93331EFB489A00CA92FE /* ListCell.swift */; };
+		4C4A93361EFB4A7000CA92FE /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A93351EFB4A7000CA92FE /* TabBarController.swift */; };
+		4C5A7EBE1EFD25F600201500 /* ListCellSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5A7EBD1EFD25F600201500 /* ListCellSectionController.swift */; };
+		4C5A7EC01EFD2F2900201500 /* Variables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5A7EBF1EFD2F2900201500 /* Variables.swift */; };
+		AA140BF5C3FCF8E06DA646D7 /* Pods_TabBarIGListKitMagic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BECDC9EDBA968005974007 /* Pods_TabBarIGListKitMagic.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D071A0D72C4CCC6874D3CA2 /* Pods-TabBarIGListKitMagic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabBarIGListKitMagic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TabBarIGListKitMagic/Pods-TabBarIGListKitMagic.debug.xcconfig"; sourceTree = "<group>"; };
+		356A7682BBEEE74812651BB6 /* Pods-TabBarIGListKitMagic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabBarIGListKitMagic.release.xcconfig"; path = "Pods/Target Support Files/Pods-TabBarIGListKitMagic/Pods-TabBarIGListKitMagic.release.xcconfig"; sourceTree = "<group>"; };
 		4C4A930D1EFB37C100CA92FE /* TabBarIGListKitMagic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarIGListKitMagic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C4A93101EFB37C100CA92FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C4A93121EFB37C100CA92FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4C4A93151EFB37C100CA92FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4C4A93171EFB37C100CA92FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C4A931A1EFB37C100CA92FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C4A931C1EFB37C100CA92FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C4A93221EFB479700CA92FE /* ListConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListConfigurator.swift; path = List/ListConfigurator.swift; sourceTree = "<group>"; };
+		4C4A93231EFB479700CA92FE /* ListInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListInteractor.swift; path = List/ListInteractor.swift; sourceTree = "<group>"; };
+		4C4A93241EFB479700CA92FE /* ListModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListModels.swift; path = List/ListModels.swift; sourceTree = "<group>"; };
+		4C4A93251EFB479700CA92FE /* ListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListPresenter.swift; path = List/ListPresenter.swift; sourceTree = "<group>"; };
+		4C4A93261EFB479700CA92FE /* ListRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListRouter.swift; path = List/ListRouter.swift; sourceTree = "<group>"; };
+		4C4A93271EFB479700CA92FE /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListViewController.swift; path = List/ListViewController.swift; sourceTree = "<group>"; };
+		4C4A93281EFB479700CA92FE /* ListWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListWorker.swift; path = List/ListWorker.swift; sourceTree = "<group>"; };
+		4C4A93311EFB484800CA92FE /* ListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ListCell.xib; path = List/ListCell.xib; sourceTree = "<group>"; };
+		4C4A93331EFB489A00CA92FE /* ListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListCell.swift; path = List/ListCell.swift; sourceTree = "<group>"; };
+		4C4A93351EFB4A7000CA92FE /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		4C5A7EBD1EFD25F600201500 /* ListCellSectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListCellSectionController.swift; sourceTree = "<group>"; };
+		4C5A7EBF1EFD2F2900201500 /* Variables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Variables.swift; sourceTree = "<group>"; };
+		81BECDC9EDBA968005974007 /* Pods_TabBarIGListKitMagic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TabBarIGListKitMagic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +55,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA140BF5C3FCF8E06DA646D7 /* Pods_TabBarIGListKitMagic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		337741C50170E93C5A5C69E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81BECDC9EDBA968005974007 /* Pods_TabBarIGListKitMagic.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4C4A93041EFB37C100CA92FE = {
 			isa = PBXGroup;
 			children = (
 				4C4A930F1EFB37C100CA92FE /* TabBarIGListKitMagic */,
 				4C4A930E1EFB37C100CA92FE /* Products */,
+				EEF7F08B02633620D24D7B12 /* Pods */,
+				337741C50170E93C5A5C69E5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +93,40 @@
 			children = (
 				4C4A93101EFB37C100CA92FE /* AppDelegate.swift */,
 				4C4A93121EFB37C100CA92FE /* ViewController.swift */,
-				4C4A93141EFB37C100CA92FE /* Main.storyboard */,
+				4C4A93351EFB4A7000CA92FE /* TabBarController.swift */,
+				4C5A7EBF1EFD2F2900201500 /* Variables.swift */,
+				4C4A93301EFB479A00CA92FE /* List */,
 				4C4A93171EFB37C100CA92FE /* Assets.xcassets */,
 				4C4A93191EFB37C100CA92FE /* LaunchScreen.storyboard */,
 				4C4A931C1EFB37C100CA92FE /* Info.plist */,
 			);
 			path = TabBarIGListKitMagic;
+			sourceTree = "<group>";
+		};
+		4C4A93301EFB479A00CA92FE /* List */ = {
+			isa = PBXGroup;
+			children = (
+				4C4A93221EFB479700CA92FE /* ListConfigurator.swift */,
+				4C4A93231EFB479700CA92FE /* ListInteractor.swift */,
+				4C4A93241EFB479700CA92FE /* ListModels.swift */,
+				4C4A93251EFB479700CA92FE /* ListPresenter.swift */,
+				4C4A93261EFB479700CA92FE /* ListRouter.swift */,
+				4C4A93311EFB484800CA92FE /* ListCell.xib */,
+				4C4A93331EFB489A00CA92FE /* ListCell.swift */,
+				4C4A93271EFB479700CA92FE /* ListViewController.swift */,
+				4C5A7EBD1EFD25F600201500 /* ListCellSectionController.swift */,
+				4C4A93281EFB479700CA92FE /* ListWorker.swift */,
+			);
+			name = List;
+			sourceTree = "<group>";
+		};
+		EEF7F08B02633620D24D7B12 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D071A0D72C4CCC6874D3CA2 /* Pods-TabBarIGListKitMagic.debug.xcconfig */,
+				356A7682BBEEE74812651BB6 /* Pods-TabBarIGListKitMagic.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +136,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C4A931F1EFB37C100CA92FE /* Build configuration list for PBXNativeTarget "TabBarIGListKitMagic" */;
 			buildPhases = (
+				1B1597FAC48DE6006F3AF419 /* [CP] Check Pods Manifest.lock */,
 				4C4A93091EFB37C100CA92FE /* Sources */,
 				4C4A930A1EFB37C100CA92FE /* Frameworks */,
 				4C4A930B1EFB37C100CA92FE /* Resources */,
+				30EBBD150761A13D6552995B /* [CP] Embed Pods Frameworks */,
+				A1C614D54396322B7C984663 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,19 +193,78 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C4A931B1EFB37C100CA92FE /* LaunchScreen.storyboard in Resources */,
+				4C4A93321EFB484800CA92FE /* ListCell.xib in Resources */,
 				4C4A93181EFB37C100CA92FE /* Assets.xcassets in Resources */,
-				4C4A93161EFB37C100CA92FE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B1597FAC48DE6006F3AF419 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		30EBBD150761A13D6552995B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TabBarIGListKitMagic/Pods-TabBarIGListKitMagic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1C614D54396322B7C984663 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TabBarIGListKitMagic/Pods-TabBarIGListKitMagic-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4C4A93091EFB37C100CA92FE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C4A932B1EFB479700CA92FE /* ListModels.swift in Sources */,
+				4C4A932D1EFB479700CA92FE /* ListRouter.swift in Sources */,
+				4C4A93361EFB4A7000CA92FE /* TabBarController.swift in Sources */,
+				4C5A7EBE1EFD25F600201500 /* ListCellSectionController.swift in Sources */,
+				4C4A93291EFB479700CA92FE /* ListConfigurator.swift in Sources */,
+				4C4A93341EFB489A00CA92FE /* ListCell.swift in Sources */,
+				4C5A7EC01EFD2F2900201500 /* Variables.swift in Sources */,
+				4C4A932F1EFB479700CA92FE /* ListWorker.swift in Sources */,
 				4C4A93131EFB37C100CA92FE /* ViewController.swift in Sources */,
+				4C4A932A1EFB479700CA92FE /* ListInteractor.swift in Sources */,
+				4C4A932C1EFB479700CA92FE /* ListPresenter.swift in Sources */,
+				4C4A932E1EFB479700CA92FE /* ListViewController.swift in Sources */,
 				4C4A93111EFB37C100CA92FE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,14 +272,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4C4A93141EFB37C100CA92FE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4C4A93151EFB37C100CA92FE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4C4A93191EFB37C100CA92FE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -261,6 +380,7 @@
 		};
 		4C4A93201EFB37C100CA92FE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D071A0D72C4CCC6874D3CA2 /* Pods-TabBarIGListKitMagic.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = W2NQ7F7A53;
@@ -274,6 +394,7 @@
 		};
 		4C4A93211EFB37C100CA92FE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 356A7682BBEEE74812651BB6 /* Pods-TabBarIGListKitMagic.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = W2NQ7F7A53;
@@ -304,6 +425,7 @@
 				4C4A93211EFB37C100CA92FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
